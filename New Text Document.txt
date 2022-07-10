@@ -1,0 +1,15 @@
+<i class="fa-solid fa-house-chimney"></i> ----- for home
+<i class="fa-solid fa-microchip"></i> --------- for technoloy
+<i class="fa-solid fa-user-nurse"></i> ------- for medical
+<i class="fa-solid fa-language"></i> -------- for language
+<i class="fa-solid fa-magnifying-glass"></i> - -------- for search
+<i class="fa-solid fa-graduation-cap"></i>   --------- for eduction
+<i class="fa-solid fa-user"></i> ----------- for personal
+<i class="fa-solid fa-shield-check"></i> --------- for security
+<i class="fa-solid fa-lock-keyhole"></i> --------- for close lock
+<i class="fa-solid fa-lock-keyhole-open"></i> ---------for open lock
+<i class="fa-solid fa-vial"></i> --------- for expenince
+<i class="fa-solid fa-phone"></i> --------- for phone
+<i class="fa-solid fa-envelope-open-text"></i> ------ for mail
+<i class="fa-brands fa-facebook"></i> ----- for facebook
+<i class="fa-duotone fa-laptop-code"></i>  ------- for laptop 

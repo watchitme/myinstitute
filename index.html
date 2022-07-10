@@ -1,0 +1,304 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="Css/all.css">
+	
+	<style>
+	*
+{
+	margin: 0px;
+	padding: 0px;
+}
+#main
+{
+	
+	width: 100%;
+	height: 100%;
+	background-color: #E2EFBA;
+	position: relative;
+}
+#menuDiv
+		{
+			width: 100%;
+			height: 40px;
+			border: 1px solid red;
+			margin-top: 42px;
+			position: relative;
+			background-color:  #f40;
+
+		}
+#search
+{
+	margin: 5px;
+	width: 50%;
+	height: 25px;
+
+}
+.midbox
+{
+	margin-top: 50px;
+	width: 100%;
+	height: 250px;
+	box-shadow: 1px 5px 5px grey;
+	position: relative;
+
+}
+.textbox
+{
+	width: 50%;
+	height: 250px;
+	position: absolute;
+}
+.picbox
+{
+	width: 50%;
+	height: 250px;
+	position: absolute;
+	right: 0px;
+}
+#lastCircle
+{
+	width: 100%;
+	height: 200px;
+	border-top: 4px solid red;
+	border-radius: 40%;
+	margin-top: 10px;
+
+}
+
+#logo
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	position: absolute;
+	right: 20px;
+	top: 0px;
+	background-image: url("pics/logo.png");
+	background-size: 95px 95px;
+	background-repeat: no-repeat;
+	box-shadow: 1px 3px 5px black;
+	
+}
+#mci
+{
+	font-size: 40px;
+	font-family: Arial;
+	font-weight: bold;
+
+}
+#name
+{
+	font-size: 20px;
+	font-family: Timea News Roman;
+	color: blue;
+}
+#menu
+{
+	width: 100%;
+	align-items: center;
+	float: left;
+	position: absolute;
+}
+
+
+#menu li
+{
+	
+	display: inline-block;
+	margin-left: 5%;
+	margin-top: 11px;	
+}
+i
+{
+	color: black;
+	font-size: 18px;
+
+}
+a
+{
+	
+	background-color: #f40;
+	color: white;
+	font-weight: bold;
+	padding: 7px;
+	text-decoration: none;
+}
+a:hover
+{
+
+	background-color: grey;
+	border-radius: 10%;
+
+}
+a:active
+{
+	color: red;
+}
+
+{
+	background-color: red;
+}
+#sea
+{
+	margin-left: 10px;
+}
+#medicalPicture
+{
+	background-image: url("pics/lan.jpg") ;
+	background-size:cover ;
+	background-repeat: no-repeat;
+}
+#itPicture
+{
+	background-image: url("pics/it.jpg");
+	background-size: cover;
+}
+#lanPicture
+{
+	background-image: url("pics/lan.jpg");
+	background-size:cover;
+
+}
+#medicalText
+{
+	overflow: auto;
+	text-align: justify-all;
+	text-indent: 20px;
+	padding-right: 50px;
+	background-color: #0b1cfd;
+	color: white;
+
+	
+}
+#meditext 
+{
+	color: white;
+}
+.text 
+{
+	padding: 20px;
+}
+#itText
+{
+	overflow: auto;
+	text-align: justify-all;
+	text-indent: 20px;
+	padding-right: 50px;
+	background-color: #00ff9c;
+	color: balck;	
+}
+.text2
+{
+	padding: 20px;
+}
+#lanText
+{
+	overflow: auto;
+	text-align: justify-all;
+	text-indent: 20px;
+	padding-right: 50px;
+	background-color: #ff00ea;
+	color: balck;	
+}
+.text3
+{
+	padding: 20px;
+}
+#ques
+{
+	width: 80%;
+	height: 80px;
+	
+}
+
+
+
+
+	
+	</style>
+</head>
+
+<body>
+	<div id="main">
+		<p id="mci">MICROSOFT</p>
+		<p id="name">Institute of I.T & Medical Sciences</p>
+		<div id="logo"></div>
+	<div id="menuDiv">
+		<ul id="menu">
+			<li><a href="index.html" class="active" ><i class="fa-solid fa-house-chimney"></i> Home</a></li>
+			<li><a href="#"><i class="fa-solid fa-user-nurse"></i> Medical</a></li>
+			<li><a href="#"><i class="fa-solid fa-microchip"></i> I.T</a></li>
+			<li><a href="#"><i class="fa-solid fa-language"></i> Language</a></li>
+			<li><a href="#"><i class="fa-solid fa-graduation-cap"></i> Register</a></li>
+		</ul>
+	</div>
+		<i class="fa-solid fa-magnifying-glass" id="sea"></i><input type="text" id="search" placeholder="Search Something">
+		<div id="medical" class="midbox">
+		<div id="medicalText" class="textbox">
+			<h1 id="meditext">About Medical</h1>
+			<p class="text">Video provides a powerful way to help you prove your point. When you click Online Video, you can 
+paste in the embed code for the video you want to add. You can also type a keyword to search online for 
+the video that best fits your document.
+Video provides a powerful way to help you prove your point. When you click Online Video, you can 
+paste in the embed code for the video you want to add. You can also type a keyword to search online for 
+the video that best fits your document.
+
+
+</p>
+		</div>
+		<div id="medicalPicture" class="picbox"></div>
+		</div>
+		
+		<div id="it" class="midbox">
+		<div id="itText" class="textbox">
+			<h1 id="mttext">About I.T</h1>
+			<p class="text2">Video provides a powerful way to help you prove your point. When you click Online Video, you can 
+paste in the embed code for the video you want to add. You can also type a keyword to search online for 
+the video that best fits your document.
+Video provides a powerful way to help you prove your point. When you click Online Video, you can 
+paste in the embed code for the video you want to add. You can also type a keyword to search online for 
+the video that best fits your document.
+
+
+</p>
+		</div>
+		<div id="itPicture" class="picbox"></div>
+		</div>
+		
+		
+		<div id="lan" class="midbox">
+		<div id="lanText" class="textbox">
+			<h1 id="lantext">About Language</h1>
+			<p class="text3">Video provides a powerful way to help you prove your point. When you click Online Video, you can 
+paste in the embed code for the video you want to add. You can also type a keyword to search online for 
+the video that best fits your document.
+Video provides a powerful way to help you prove your point. When you click Online Video, you can 
+paste in the embed code for the video you want to add. You can also type a keyword to search online for 
+the video that best fits your document.
+
+
+</p>
+		</div>
+		<div id="lanPicture" class="picbox"></div>
+		</div>
+		<h2 style="margin-top: 40px;">Ask a Question</h2>
+		<textarea id="ques">Ask a Question</textarea>
+		<br>
+		<h2>Feadback</h2>
+		<input type="text" style="width: 30%; height: 40px;">
+		
+		<div id="lastCircle">
+			<br><br><br><br>
+		<h2>Contact</h2><br><br>
+			<a class="an">Email</a>
+			<a class="an">Whatsapp</a>
+			<a class="an">Facebook</a>
+			<a class="an"> Loaction</a>
+		</div>
+		<div id="back" </div>
+	</div>
+</body>
+</html>
